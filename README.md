@@ -263,6 +263,10 @@ class SomePlugin extends BasePlugin
 
 ### 1.7.0
 
+* Added the ability to log messages that are submitted.
+
+### 1.7.0
+
 * Added the ability to access individual message fields values via `message.messageFields` when a validation error occurred. For example, the value of the input `message[Phone]` can now be accessed via `message.messageFields['Phone']`.
 * Custom message field values only have a single line break between them in the generated email body now, rather than two.
 

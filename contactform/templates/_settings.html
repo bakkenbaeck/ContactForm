@@ -75,3 +75,14 @@
 	warning:      (craft.config.get('successFlashMessage', 'contactform') is not sameas(null)) ? configWarning('successFlashMessage'),
 	errors:       settings.getErrors('successFlashMessage')
 }) }}
+
+{{ forms.lightswitchField({
+    label:        "Log to file?"|t,
+    instructions: "Log submissions to file?"|t,
+    id:           'logToFile',
+    name:         'logToFile',
+    on:           settings.logToFile,
+    disabled:     (craft.config.get('logToFile', 'contactform') is not sameas(null)),
+    warning:      (craft.config.get('logToFile', 'contactform') is not sameas(null)) ? configWarning('logToFile'),
+    errors:       settings.getErrors('logToFile')
+}) }}

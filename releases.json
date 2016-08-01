@@ -1,5 +1,13 @@
 [
   {
+    "version": "1.7.1",
+    "downloadUrl": "https://github.com/pixelandtonic/ContactForm/archive/1.7.1.zip",
+    "date": "2016-01-18T13:00:00-08:00",
+    "notes": [
+      "[Added] Added the ability to log messages that are submitted."
+    ]
+  },
+  {
     "version": "1.7.0",
     "downloadUrl": "https://github.com/pixelandtonic/ContactForm/archive/1.7.0.zip",
     "date": "2016-01-18T13:00:00-08:00",
